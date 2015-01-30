@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+Exception: Could not find return label (u'C:\\Users\\juans_000\\Documents\\trabajos de la u\\Progra I\\LabProgra1\\Los Tres Consejos/game/script.rpy', 1422588828, 31).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+  File "C:\Users\juans_000\Documents\trabajos de la u\Progra I\LabProgra1\renpy-6.18.3-sdk\renpy\ast.py", line 1331, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\juans_000\Documents\trabajos de la u\Progra I\LabProgra1\renpy-6.18.3-sdk\renpy\execution.py", line 391, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'C:\\Users\\juans_000\\Documents\\trabajos de la u\\Progra I\\LabProgra1\\Los Tres Consejos/game/script.rpy', 1422588828, 31).
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+Los Tres Consejos 0.0
